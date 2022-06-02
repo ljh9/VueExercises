@@ -10,6 +10,10 @@ import ArgumentsBind from './ArgumentsBind.vue'
 import ArgumentsOn from './ArgumentsOn.vue'
 import DynamicArgumentsBind from './DynamicArgumentsBind.vue'
 import DynamicArgumentsOn from './DynamicArgumentsOn.vue'
+//////////////////////////////////////////////////////////////////
+import ReactivityFundamentals from './ReactivityFundamentals.vue'
+import ReactiveProxyVsOriginal from './ReactiveProxyVsOriginal.vue'
+import DeclaringMethods from './DeclaringMethods.vue'
 </script>
 
 <template>
@@ -46,6 +50,16 @@ import DynamicArgumentsOn from './DynamicArgumentsOn.vue'
 
         <h2>Dynamic Arguments v-on</h2>
         <DynamicArgumentsOn /> 
+
+        <!--                      -->
+        <h2>Reactivity Fundamentals</h2>
+        <ReactivityFundamentals />
+
+        <h2>Reactive Proxy Vs. Original</h2>
+        <ReactiveProxyVsOriginal />
+
+        <h2>Declaring Methods</h2>
+        <DeclaringMethods />
 
     </div>
 </template>
