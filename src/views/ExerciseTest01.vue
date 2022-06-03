@@ -14,6 +14,8 @@ import DynamicArgumentsOn from './DynamicArgumentsOn.vue'
 import ReactivityFundamentals from './ReactivityFundamentals.vue'
 import ReactiveProxyVsOriginal from './ReactiveProxyVsOriginal.vue'
 import DeclaringMethods from './DeclaringMethods.vue'
+import DOMUpdateTiming from './DOMUpdateTiming.vue'
+import DeepReactivity from './DeepReactivity.vue'
 </script>
 
 <template>
@@ -60,6 +62,12 @@ import DeclaringMethods from './DeclaringMethods.vue'
 
         <h2>Declaring Methods</h2>
         <DeclaringMethods />
+
+        <h2>DOM Update Timing</h2>
+        <DOMUpdateTiming />
+
+        <h2>Deep Reactivity</h2>
+        <DeepReactivity />
 
     </div>
 </template>
