@@ -16,6 +16,10 @@ import ReactiveProxyVsOriginal from './ReactiveProxyVsOriginal.vue'
 import DeclaringMethods from './DeclaringMethods.vue'
 import DOMUpdateTiming from './DOMUpdateTiming.vue'
 import DeepReactivity from './DeepReactivity.vue'
+//////////////////////////////////////////////////////////////////
+import ComputedProperties from './ComputedProperties.vue'
+import ComputedPropertiesMethods from './ComputedPropertiesMethods.vue'
+import WritableComputed from './WritableComputed.vue'
 </script>
 
 <template>
@@ -68,6 +72,16 @@ import DeepReactivity from './DeepReactivity.vue'
 
         <h2>Deep Reactivity</h2>
         <DeepReactivity />
+
+        <!--                      -->
+        <h2>ComputedProperties</h2>
+        <ComputedProperties />
+
+        <h2>ComputedPropertiesMethods</h2>
+        <ComputedPropertiesMethods />
+
+        <h2>Writable Computed</h2>
+        <WritableComputed />
 
     </div>
 </template>
