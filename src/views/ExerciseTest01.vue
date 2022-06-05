@@ -20,68 +20,82 @@ import DeepReactivity from './DeepReactivity.vue'
 import ComputedProperties from './ComputedProperties.vue'
 import ComputedPropertiesMethods from './ComputedPropertiesMethods.vue'
 import WritableComputed from './WritableComputed.vue'
+//////////////////////////////////////////////////////////////////
+import BindingToObjects from './BindingToObjects.vue'
+import BindingToObjectNotInline from './BindingToObjectNotInline.vue'
+import BindingToObjectComputed from './BindingToObjectComputed.vue'
 </script>
 
 <template>
     <div>
         <h2>TextInterpolation</h2>
         <TextInterpolation msg="This is for test"/>
-
+        <h2>-----------------------------------------------</h2>
         <h2>Raw HTML</h2>
         <RawHTML />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Attribute Bindings</h2>
         <AttributeBindings />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Boolean Attributes</h2>
         <BooleanAttributes />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Dynamically Binding Multiple Attributes</h2>
         <DynamicallyBindingMultipleAttributes />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Calling Functions</h2>
         <CallingFunctions />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Directives</h2>
         <DirectivesTest />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Arguments v-bind</h2>
         <ArgumentsBind />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Arguments v-on</h2>
         <ArgumentsOn />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Dynamic Arguments v-bind</h2>
         <DynamicArgumentsBind />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Dynamic Arguments v-on</h2>
         <DynamicArgumentsOn /> 
-
+        <h2>-----------------------------------------------</h2>
         <!--                      -->
         <h2>Reactivity Fundamentals</h2>
         <ReactivityFundamentals />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Reactive Proxy Vs. Original</h2>
         <ReactiveProxyVsOriginal />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Declaring Methods</h2>
         <DeclaringMethods />
-
+        <h2>-----------------------------------------------</h2>
         <h2>DOM Update Timing</h2>
         <DOMUpdateTiming />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Deep Reactivity</h2>
         <DeepReactivity />
-
+        <h2>-----------------------------------------------</h2>
         <!--                      -->
         <h2>ComputedProperties</h2>
         <ComputedProperties />
-
+        <h2>-----------------------------------------------</h2>
         <h2>ComputedPropertiesMethods</h2>
         <ComputedPropertiesMethods />
-
+        <h2>-----------------------------------------------</h2>
         <h2>Writable Computed</h2>
         <WritableComputed />
+        <h2>-----------------------------------------------</h2>
+        <!--                      -->
+        <h2>Binding to Objects</h2>
+        <BindingToObjects />
+        <h2>-----------------------------------------------</h2>
+        <h2>Binding to Objects2</h2>
+        <BindingToObjectNotInline />
+        <h2>-----------------------------------------------</h2>
+         <h2>Binding to Objects using computed</h2>
+        <BindingToObjectComputed />
 
     </div>
 </template>
