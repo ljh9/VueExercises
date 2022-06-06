@@ -24,6 +24,9 @@ import WritableComputed from './WritableComputed.vue'
 import BindingToObjects from './BindingToObjects.vue'
 import BindingToObjectNotInline from './BindingToObjectNotInline.vue'
 import BindingToObjectComputed from './BindingToObjectComputed.vue'
+import BindingToArrays from './BindingToArrays.vue'
+import BindingToArraysWithTernaryExpressions from './BindingToArraysWithTernaryExpressions.vue'
+import BindingToArraysObjectSyntax from './BindingToArraysObjectSyntax.vue'
 </script>
 
 <template>
@@ -94,8 +97,19 @@ import BindingToObjectComputed from './BindingToObjectComputed.vue'
         <h2>Binding to Objects2</h2>
         <BindingToObjectNotInline />
         <h2>-----------------------------------------------</h2>
-         <h2>Binding to Objects using computed</h2>
+        <h2>Binding to Objects using computed</h2>
         <BindingToObjectComputed />
+        <h2>-----------------------------------------------</h2>
+        <h2>Binding to Arrays</h2>
+        <BindingToArrays />
+        <h2>-----------------------------------------------</h2>
+        <h2>Binding to Arrays With Ternary Expressions</h2>
+        <BindingToArraysWithTernaryExpressions />
+        <h2>-----------------------------------------------</h2>
+        <h2>Binding to Arrays using Object Syntax</h2>
+        <BindingToArraysObjectSyntax />
+
+        
 
     </div>
 </template>
