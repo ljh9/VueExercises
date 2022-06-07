@@ -27,6 +27,8 @@ import BindingToObjectComputed from './BindingToObjectComputed.vue'
 import BindingToArrays from './BindingToArrays.vue'
 import BindingToArraysWithTernaryExpressions from './BindingToArraysWithTernaryExpressions.vue'
 import BindingToArraysObjectSyntax from './BindingToArraysObjectSyntax.vue'
+import WithComponentsBasic from './WithComponentsBasic.vue'
+import WithComponentsClassBindings from './WithComponentsClassBindings.vue'
 </script>
 
 <template>
@@ -108,6 +110,12 @@ import BindingToArraysObjectSyntax from './BindingToArraysObjectSyntax.vue'
         <h2>-----------------------------------------------</h2>
         <h2>Binding to Arrays using Object Syntax</h2>
         <BindingToArraysObjectSyntax />
+        <h2>-----------------------------------------------</h2>
+        <h2>With Components</h2>
+        <WithComponentsBasic />
+        <h2>-----------------------------------------------</h2>
+        <h2>With Components using Class bindings</h2>
+        <WithComponentsClassBindings />
 
         
 
