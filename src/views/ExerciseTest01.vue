@@ -29,6 +29,9 @@ import BindingToArraysWithTernaryExpressions from './BindingToArraysWithTernaryE
 import BindingToArraysObjectSyntax from './BindingToArraysObjectSyntax.vue'
 import WithComponentsBasic from './WithComponentsBasic.vue'
 import WithComponentsClassBindings from './WithComponentsClassBindings.vue'
+import WithComponentsMultipleRoots from './WithComponentsMultipleRoots.vue'
+import InlineStylesBindingToObj from './InlineStylesBindingToObj.vue'
+import InlineStylesBindingToObjAdvanced from './InlineStylesBindingToObjAdvanced.vue'
 </script>
 
 <template>
@@ -116,7 +119,15 @@ import WithComponentsClassBindings from './WithComponentsClassBindings.vue'
         <h2>-----------------------------------------------</h2>
         <h2>With Components using Class bindings</h2>
         <WithComponentsClassBindings />
-
+        <h2>-----------------------------------------------</h2>
+        <h2>With Components with mutiple roots</h2>
+        <WithComponentsMultipleRoots />
+        <h2>-----------------------------------------------</h2>
+        <h2>Binding Inline Styles - Binding to Objects</h2>
+        <InlineStylesBindingToObj />
+        <h2>-----------------------------------------------</h2>
+        <h2>Binding Inline Styles - Binding to Objects advanced</h2>
+        <InlineStylesBindingToObjAdvanced />
         
 
     </div>
