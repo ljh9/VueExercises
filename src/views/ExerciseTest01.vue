@@ -32,6 +32,8 @@ import WithComponentsClassBindings from './WithComponentsClassBindings.vue'
 import WithComponentsMultipleRoots from './WithComponentsMultipleRoots.vue'
 import InlineStylesBindingToObj from './InlineStylesBindingToObj.vue'
 import InlineStylesBindingToObjAdvanced from './InlineStylesBindingToObjAdvanced.vue'
+import InlineStylesBindingToArr from './InlineStylesBindingToArr.vue'
+import InlineStylesMultipleValues from './InlineStylesMultipleValues.vue'
 </script>
 
 <template>
@@ -128,7 +130,11 @@ import InlineStylesBindingToObjAdvanced from './InlineStylesBindingToObjAdvanced
         <h2>-----------------------------------------------</h2>
         <h2>Binding Inline Styles - Binding to Objects advanced</h2>
         <InlineStylesBindingToObjAdvanced />
-        
+        <h2>-----------------------------------------------</h2>
+        <h2>Binding Inline Styles - Binding to Arrays</h2>
+        <InlineStylesBindingToArr />
+        <h2>Binding Inline Styles - Multiple Values</h2>
+        <InlineStylesMultipleValues />
 
     </div>
 </template>
