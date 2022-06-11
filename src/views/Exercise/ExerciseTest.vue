@@ -1,6 +1,8 @@
 <script setup>
 import DirectiveVIf from './DirectiveVIf.vue'
 import DirectiveVElse from './DirectiveVElse.vue'
+import DirectiveVIfOnTemplate from './DirectiveVIfOnTemplate.vue'
+import DirectiveVShow from './DirectiveVShow.vue'
 </script>
 
 <template>
@@ -9,5 +11,9 @@ import DirectiveVElse from './DirectiveVElse.vue'
         <DirectiveVIf />
         <h4>Directive v-else</h4>
         <DirectiveVElse />
+        <h4>Directive v-if on template</h4>
+        <DirectiveVIfOnTemplate />
+        <h4>Directive v-show</h4>
+        <DirectiveVShow />
     </div>
 </template>
