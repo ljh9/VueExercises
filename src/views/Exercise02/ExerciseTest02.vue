@@ -2,6 +2,10 @@
 import DirectiveVFor from './DirectiveVFor.vue'
 import DirectiveVForParentScope from './DirectiveVForParentScope.vue'
 import DirectiveVForIndex from './DirectiveVForIndex.vue'
+import DirectiveVForNested from './DirectiveVForNested.vue'
+import DirectiveVForOf from './DirectiveVForOf.vue'
+import DirectiveVForWithObject from './DirectiveVForWithObject.vue'
+import DirectiveVForWithObjectKey from './DirectiveVForWithObjectKey.vue'
 </script>
 
 <template>
@@ -13,6 +17,13 @@ import DirectiveVForIndex from './DirectiveVForIndex.vue'
         <DirectiveVForParentScope />
         <h4>Directive v-for with index</h4>
         <DirectiveVForIndex />
-        
+        <h4>Directive v-for - nested</h4>
+        <DirectiveVForNested />
+        <h4>Directive v-for using of</h4>
+        <DirectiveVForOf />
+        <h4>Directive v-for with an Object</h4>
+        <DirectiveVForWithObject />
+        <h4>Directive v-for with an Object using key</h4>
+        <DirectiveVForWithObjectKey />
     </div>
 </template>
