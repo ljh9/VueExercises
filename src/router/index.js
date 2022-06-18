@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 //import TestTest from '../views/TestTest.vue'
 //import ExerciseTest01 from '../views/ExerciseTest01.vue'
 //import ExerciseTest from '../views/Exercise/ExerciseTest.vue'
-import ExerciseTest02 from '../views/Exercise02/ExerciseTest02.vue'
+//import ExerciseTest02 from '../views/Exercise02/ExerciseTest02.vue'
+import ExerciseTest03 from '../views/Exercise03/ExerciseTest03.vue'
 
 const routes = [
   {
@@ -11,7 +12,8 @@ const routes = [
     //component: TestTest
     //component: ExerciseTest01
     //component: ExerciseTest
-    component: ExerciseTest02
+    //component: ExerciseTest02
+    component: ExerciseTest03
   },
   {
     path: '/about',
