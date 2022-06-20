@@ -5,6 +5,8 @@ import DirectiveVOnCallMethodInline from './DirectiveVOnCallMethodInline.vue'
 import DirectiveVOnEventArgument from './DirectiveVOnEventArgument.vue'
 import KeyModifier from './KeyModifier.vue'
 import KeyboardEvent from './KeyboardEvent.vue'
+import SystemModifierKeys from './SystemModifierKeys.vue'
+import ExactModifier from './ExactModifier.vue'
 </script>
 
 <template>
@@ -21,5 +23,9 @@ import KeyboardEvent from './KeyboardEvent.vue'
         <KeyModifier />
         <h4>KeyboardEvent.key</h4>
         <KeyboardEvent />
+        <h4>System Modifier Keys</h4>
+        <SystemModifierKeys />
+        <h4>.exact Modifier</h4>
+        <ExactModifier />
     </div>
 </template>
