@@ -7,6 +7,9 @@ import MultipleCheckboxes from './MultipleCheckboxes.vue'
 import RadioButton from './RadioButton.vue'
 import SingleSelect from './SingleSelect.vue'
 import MultipleSelect from './MultipleSelect.vue'
+import BindingSelectOptions from './BindingSelectOptions.vue'
+import CheckboxValueBindings from './CheckboxValueBindings.vue'
+import RadioValueBindings from './RadioValueBindings.vue'
 </script>
 
 <template>
@@ -27,5 +30,11 @@ import MultipleSelect from './MultipleSelect.vue'
         <SingleSelect />
         <h4>Multiple Select</h4>
         <MultipleSelect />
+        <h4>Binding Select Options</h4>
+        <BindingSelectOptions />
+        <h4>Value Bindings - Checkbox</h4>
+        <CheckboxValueBindings />
+        <h4>Value Bindings - Radio</h4>
+        <RadioValueBindings />
     </div>
 </template>
