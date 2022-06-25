@@ -10,6 +10,9 @@ import MultipleSelect from './MultipleSelect.vue'
 import BindingSelectOptions from './BindingSelectOptions.vue'
 import CheckboxValueBindings from './CheckboxValueBindings.vue'
 import RadioValueBindings from './RadioValueBindings.vue'
+import SelectValueBindings from './SelectValueBindings.vue'
+import ModifierLazy from './ModifierLazy.vue'
+import ModifierTrim from './ModifierTrim.vue'
 </script>
 
 <template>
@@ -36,5 +39,11 @@ import RadioValueBindings from './RadioValueBindings.vue'
         <CheckboxValueBindings />
         <h4>Value Bindings - Radio</h4>
         <RadioValueBindings />
+        <h4>Value Bindings - Select</h4>
+        <SelectValueBindings />
+        <h4>Modifier - Lazy</h4>
+        <ModifierLazy />
+        <h4>Modifier - Trim</h4>
+        <ModifierTrim />
     </div>
 </template>
