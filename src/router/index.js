@@ -6,7 +6,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 //import ExerciseTest03 from '../views/Exercise03/ExerciseTest03.vue'
 //import ExerciseTest04 from '../views/Exercise04/ExerciseTest04.vue'
 // import ExerciseTest05 from '../views/Exercise05/ExerciseTest05.vue'
-import ExerciseTest06 from '../views/Exercise06/ExerciseTest06.vue'
+// import ExerciseTest06 from '../views/Exercise06/ExerciseTest06.vue'
+import ExerciseTest07 from '../views/Exercise07/ExerciseTest07.vue'
 
 const routes = [
   {
@@ -19,7 +20,8 @@ const routes = [
     //component: ExerciseTest03
     //component: ExerciseTest04
     //component: ExerciseTest05
-    component: ExerciseTest06
+    // component: ExerciseTest06
+    component: ExerciseTest07
   },
   {
     path: '/about',
