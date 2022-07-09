@@ -1,6 +1,7 @@
 <script setup>
 import AccessingTheRefs from './AccessingTheRefs.vue'
 import RefsInsideVFor from './RefsInsideVFor.vue'
+import Parent from './Parent.vue'
 </script>
 
 <template>
@@ -9,5 +10,7 @@ import RefsInsideVFor from './RefsInsideVFor.vue'
         <AccessingTheRefs />
         <h4>Refs inside v-for</h4>
         <RefsInsideVFor />
+        <h4>Ref on Component</h4>
+        <Parent />
     </div>
 </template>
