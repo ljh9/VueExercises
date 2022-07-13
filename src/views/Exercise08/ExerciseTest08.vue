@@ -2,6 +2,8 @@
 import DefiningComponent from './DefiningComponent.vue'
 import UsingComponent from './UsingComponent.vue'
 import UsingComponentNTimes from './UsingComponentNTimes.vue'
+import UsingProps from './UsingProps.vue'
+import UsingPropsWithArray from './UsingPropsWithArray.vue'
 </script>
 
 <template>
@@ -12,5 +14,9 @@ import UsingComponentNTimes from './UsingComponentNTimes.vue'
         <UsingComponent />
         <h4>Using Components</h4>
         <UsingComponentNTimes />
+        <h4>Using Props</h4>
+        <UsingProps />
+        <h4>Using Props with array</h4>
+        <UsingPropsWithArray /> 
     </div>
 </template>
