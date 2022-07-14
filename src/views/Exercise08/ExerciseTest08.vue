@@ -4,6 +4,7 @@ import UsingComponent from './UsingComponent.vue'
 import UsingComponentNTimes from './UsingComponentNTimes.vue'
 import UsingProps from './UsingProps.vue'
 import UsingPropsWithArray from './UsingPropsWithArray.vue'
+import ListeningToEvents from './ListeningToEvents.vue'
 </script>
 
 <template>
@@ -18,5 +19,7 @@ import UsingPropsWithArray from './UsingPropsWithArray.vue'
         <UsingProps />
         <h4>Using Props with array</h4>
         <UsingPropsWithArray /> 
+        <h4>Listening to Events</h4>
+        <ListeningToEvents />
     </div>
 </template>
