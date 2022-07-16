@@ -6,6 +6,7 @@ import UsingProps from './UsingProps.vue'
 import UsingPropsWithArray from './UsingPropsWithArray.vue'
 import ListeningToEvents from './ListeningToEvents.vue'
 import ListeningToEventsBtn from './ListeningToEventsBtn.vue'
+import ContentDistribution from './ContentDistribution.vue'
 </script>
 
 <template>
@@ -24,5 +25,7 @@ import ListeningToEventsBtn from './ListeningToEventsBtn.vue'
         <ListeningToEvents />
         <h4>Listening to Events - btn</h4>
         <ListeningToEventsBtn />    
+        <h4>Content Distribution with Slots</h4>
+        <ContentDistribution /> 
     </div>
 </template>
