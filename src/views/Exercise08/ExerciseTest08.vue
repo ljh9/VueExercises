@@ -7,6 +7,7 @@ import UsingPropsWithArray from './UsingPropsWithArray.vue'
 import ListeningToEvents from './ListeningToEvents.vue'
 import ListeningToEventsBtn from './ListeningToEventsBtn.vue'
 import ContentDistribution from './ContentDistribution.vue'
+import DynamicComponents from './DynamicComponents.vue'
 </script>
 
 <template>
@@ -27,5 +28,7 @@ import ContentDistribution from './ContentDistribution.vue'
         <ListeningToEventsBtn />    
         <h4>Content Distribution with Slots</h4>
         <ContentDistribution /> 
+        <h4>Dynamic Components</h4>
+        <DynamicComponents />
     </div>
 </template>
