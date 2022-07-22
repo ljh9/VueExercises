@@ -2,6 +2,7 @@
 import PropsDeclaration from './PropsDeclaration.vue'
 import PropsDeclarationObject from './PropsDeclarationObject.vue'
 import PropNameCasing from './PropNameCasing.vue'
+import StaticAndDynamicProps from './StaticAndDynamicProps.vue'
 </script>
 
 <template>
@@ -12,5 +13,7 @@ import PropNameCasing from './PropNameCasing.vue'
         <PropsDeclarationObject title="Props Declaration using object" :likes="613"/>
         <h4>Prop Name Casing</h4>
         <PropNameCasing greeting-message="hello"/>
+        <h4>Static vs. Dynamic Props</h4>
+        <StaticAndDynamicProps/>
     </div>
 </template>
