@@ -4,6 +4,7 @@ import PropsDeclarationObject from './PropsDeclarationObject.vue'
 import PropNameCasing from './PropNameCasing.vue'
 import StaticAndDynamicProps from './StaticAndDynamicProps.vue'
 import BindingPropertiesObject from './BindingPropertiesObject.vue'
+import OneWayDataFlow from './OneWayDataFlow.vue'
 </script>
 
 <template>
@@ -18,5 +19,8 @@ import BindingPropertiesObject from './BindingPropertiesObject.vue'
         <StaticAndDynamicProps />
         <h4>Binding Multiple Properties Using an Object</h4>
         <BindingPropertiesObject />
+        <h4>One-Way Data Flow</h4>
+        <OneWayDataFlow />
+        
     </div>
 </template>
