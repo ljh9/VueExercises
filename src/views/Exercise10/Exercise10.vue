@@ -5,6 +5,7 @@ import PropNameCasing from './PropNameCasing.vue'
 import StaticAndDynamicProps from './StaticAndDynamicProps.vue'
 import BindingPropertiesObject from './BindingPropertiesObject.vue'
 import OneWayDataFlow from './OneWayDataFlow.vue'
+import BooleanCasting from './BooleanCasting.vue'
 </script>
 
 <template>
@@ -21,6 +22,8 @@ import OneWayDataFlow from './OneWayDataFlow.vue'
         <BindingPropertiesObject />
         <h4>One-Way Data Flow</h4>
         <OneWayDataFlow />
+        <h4>Boolean Casting</h4>
+        <BooleanCasting />
         
     </div>
 </template>
